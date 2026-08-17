@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --color-ink: #1c1917;
+  --color-parchment: #f5f0e8;
+  --color-parchment-deep: #ede8dc;
+  --color-accent: #b85c1e;
+  --color-accent-soft: #f3e8de;
+  --color-muted: #78716c;
+  --color-border: #d6cec3;
+  --color-q1: #166534;
+  --color-q2: #0e5f6e;
+  --color-q3: #92400e;
+  --color-q4: #991b1b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f0e8;
+  color: #1c1917;
+  scrollbar-width: thin;
+  scrollbar-color: #d6cec3 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cec3;
+  border-radius: 2px;
+}
