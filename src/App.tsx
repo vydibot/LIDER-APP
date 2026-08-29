@@ -25,9 +25,27 @@ export type Journal = {
 
 const STORAGE_KEY = 'revistas_db'
 const TOPICS = [
-  'Computer Science', 'Engineering', 'Biomedical', 'Control Systems', 
-  'Electronics', 'Networks', 'Mathematics', 'Physics', 'Energy', 'Materials',
-  'Agriculture', 'Medicine', 'Social Sciences', 'Business'
+  'Inteligencia Artificial',
+  'Aprendizaje Automático',
+  'Ciencias de la Computación',
+  'Redes y Telecomunicaciones',
+  'Internet de las Cosas (IoT)',
+  'Ciberseguridad y Privacidad',
+  'Big Data y Datos',
+  'Computación en la Nube',
+  'Sistemas Inteligentes y Control',
+  'Electrónica y Microprocesadores',
+  'Agronomía y Agricultura',
+  'Sostenibilidad y Medio Ambiente',
+  'Multimedia y Sistemas Digitales',
+  'Sistemas de Información',
+  'Comercio Electrónico',
+  'Robótica y Automatización',
+  'Blockchain y Criptografía',
+  'Matemáticas Computacionales',
+  'Ingeniería General',
+  'Redes de Sensores',
+  'Redes Sociales',
 ]
 
 // Simple CSV parser
